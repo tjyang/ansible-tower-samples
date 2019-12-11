@@ -1,7 +1,10 @@
 - name: Hello World Sample
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: 1. Hello Message
       debug:
         msg: "Hello World!"
+    - name: 1. Hello Message
+      debug:
+        msg: "Run uname -a !"
 
